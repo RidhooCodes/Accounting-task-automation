@@ -120,7 +120,7 @@ def shift_tips():
                 
             elif get_tip == "1":
                 morning_sales_input = float(input("Enter total sales made for morning shift: ")) #prompts user to enter total sales for morning shift
-                if mornin_sales_input < 0:
+                if morning_sales_input < 0:
                     raise ValueError("Morning sales cannot be negative.") #raises an error when inputted sales is negative
                 morning_sales.append(morning_sales_input)
                 morning_tip = morning_sales_input * 0.02 #calculates 2% of morning sales as tip 
