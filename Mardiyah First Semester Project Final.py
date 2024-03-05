@@ -189,10 +189,3 @@ def run_accounting_task():
 
 run_accounting_task()
 
-## Challenges Encountered During Project Development
-# 1.	Unclear Project Scope: At first, I grappled with understanding the project requirements, particularly in determining the number of functions to create. Do I create four functions or five functions based on the problems given.
-# 2.	Data Organization: Deciding whether to structure sales and costs in separate lists or a single. This decision was complicated by my limited knowledge with performing calculations on list especially in the context of this project.
-# 3.	Function Scope Determination: Deciding whether to incorporate operations for morning and evening shifts independently, together or the three collectively. 
-# 4.	Code Flexibility: Crafting a flexible code was challenging. Determining where to place ‘while’ loops, the number of loops I needed to include and if a loop is needed at all. Evaluating the necessity of the ‘try’ and ‘except’ blocks for each operation also posed some complexities.
-# 5.	 Performing operation on list especially based on the input function.
-
